@@ -1,16 +1,16 @@
 # 🍽️ Restaurant Management System (Python & PostgreSQL)
 
-A console-based **Restaurant Management System** built with Python and PostgreSQL[cite: 1]. This project handles menu management, table tracking, order processing, and daily sales reporting[cite: 2].
+A console-based **Restaurant Management System** built with Python and PostgreSQL. This project handles menu management, table tracking, order processing, and daily sales reporting.
 
 ---
 
 ## ✨ Features
 
-1. **Menu Management**: Add new food items and update item prices[cite: 2].
-2. **Table Management**: View table statuses, add new tables, update table status (`available`/`occupied`), and remove empty tables[cite: 2].
-3. **Order Management**: Create new orders for available tables, add multiple items with quantities, and update order statuses (`received`, `preparing`, `ready`, `paid`)[cite: 2].
-4. **Reports & Analytics**: View active orders, inspect detailed order receipts with calculated totals using `JOIN` queries, and generate daily sales reports with date tracking[cite: 2].
-5. **Error Handling**: Comprehensive input validation and business logic constraints (e.g., preventing orders on occupied tables, removing occupied tables, or entering invalid item IDs)[cite: 2].
+1. **Menu Management**: Add new food items and update item prices.
+2. **Table Management**: View table statuses, add new tables, update table status (`available`/`occupied`), and remove empty tables.
+3. **Order Management**: Create new orders for available tables, add multiple items with quantities, and update order statuses (`received`, `preparing`, `ready`, `paid`).
+4. **Reports & Analytics**: View active orders, inspect detailed order receipts with calculated totals using `JOIN` queries, and generate daily sales reports with date tracking.
+5. **Error Handling**: Comprehensive input validation and business logic constraints (e.g., preventing orders on occupied tables, removing occupied tables, or entering invalid item IDs).
 
 ---
 
@@ -78,7 +78,7 @@ def get_connection():
     return psycopg2.connect(
         dbname="restaurant_db",
         user="postgres",
-        password="your_password",  # Replace with your PostgreSQL password
+        password="20041382",  # Replace with your PostgreSQL password
         host="localhost",
         port="5432"
     )
